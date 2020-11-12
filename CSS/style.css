@@ -19,3 +19,60 @@ body {
     /** 1.6rem = 16px**/
     line-height: 2;
 }
+
+
+/**Globales**/
+
+img {
+    max-width: 100%;
+    /*hace que todas las imagenes sean al % estipulado*/
+}
+
+.contenedor {
+    width: 95%;
+    /**PARA RESPONSIVE*/
+    max-width: 120rem;
+    /** "1200px = 120rem" Dice que tome todo el espacio disponible pero que no se pase de 1200px **/
+    margin: 0 auto 0 auto;
+    /** margin es muy utilizado y trabaja como un reloj 0= ↑, auto= → , 0= ↓ , auto = ← **/
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.6;
+}
+
+
+/**Utilidades**/
+
+.d-block {
+    display: block !important;
+}
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+.contenido-centrado {
+    max-width: 800px;
+}
