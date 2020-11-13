@@ -168,3 +168,33 @@ h4 {
         align-items: center;
     }
 }
+
+
+/**Navegacion **/
+
+.navegacion a {
+    color: white;
+    text-decoration: none;
+    /** le quita el subrayado a los enlaces **/
+    font-size: 2.2rem;
+    /** Tamaño de la letra**/
+    /**20px = 2rem**/
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .navegacion a {
+        display: inline-block;
+        font-size: 1.8rem;
+        margin-right: 2rem;
+    }
+    .navegacion a:last-of-type {
+        /**le quita el magen al ulyimo elemento en este caso "Contacto"**/
+        margin: 0;
+    }
+}
+
+.navegacion a:hover {
+    /** Cambia de color cuando pasamos el mouse por la navegacion **/
+    color: #71B100;
+}
