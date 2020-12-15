@@ -24,12 +24,12 @@
 				<input type="text" name="nombre" placeholder="Nombre">
 				<input type="text" name="correo" placeholder="Correo">
 
-				<div class="sexo">
-					<input type="radio" name="sexo" id="hombre" value="hombre">
-					<label class="label-radio hombre" for="hombre">Hombre</label>
+				<div class="compraovende">
+					<input type="radio" name="compraovende" id="compra" value="compra">
+					<label class="label-radio compra" for="compra">compra</label>
 
-					<input type="radio" name="sexo" id="mujer" value="mujer">
-					<label class="label-radio mujer" for="mujer">Mujer</label>
+					<input type="radio" name="compraovende" id="vende" value="vende">
+					<label class="label-radio vende" for="vende">vende</label>
 				</div>
 
 				<div class="terminos">
